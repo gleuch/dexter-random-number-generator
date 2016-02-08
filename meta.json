@@ -1,0 +1,27 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [
+        {
+            "id": "min",
+            "title": "Minumum",
+            "type": "integer"
+        },
+        {
+            "id": "max",
+            "title": "Maxumum",
+            "type": "integer"
+        }
+    ],
+    //Required. Outputs the module emits.
+    "outputs": [
+      {
+          "id": "number",
+          "title": "Number",
+          "type": "integer"
+      }
+    ],
+    "title": "Random Number Generator" /* Required. A display name for the module */
+}
