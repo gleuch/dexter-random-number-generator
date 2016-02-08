@@ -27,7 +27,7 @@ module.exports = {
         }
 
         // Generate number and return
-        var num = Math.floor(Math.random() * (max - min)) + min;
+        var num = Math.floor(Math.random() * (max - min + 1)) + min;
         self.complete({number: num});
     }
 };
