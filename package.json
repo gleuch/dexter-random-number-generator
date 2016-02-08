@@ -1,5 +1,5 @@
 {
-  "name": "Random Number Generator",
+  "name": "Random_Number_Generator",
   "version": "0.0.1",
   "description": "Generate a random number between a range. (Default: [0..1000])",
   "main": "index.js",
